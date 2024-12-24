@@ -1,0 +1,3 @@
+<map id="Gamescore" name="Gamescore">
+<area shape="rect" id="Node000001" title="Classe gérant le score du jeu (Pattern Singleton et Observable)." alt="" coords="5,5,124,203"/>
+</map>

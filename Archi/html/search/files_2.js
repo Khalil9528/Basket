@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tests_2ecpp_0',['tests.cpp',['../tests_8cpp.html',1,'']]]
+  ['percolation_2epy_0',['percolation.py',['../percolation_8py.html',1,'']]]
 ];

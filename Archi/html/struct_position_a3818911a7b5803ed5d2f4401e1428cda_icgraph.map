@@ -1,0 +1,11 @@
+<map id="Position::distance_to" name="Position::distance_to">
+<area shape="rect" id="Node000001" title="Calcule la distance euclidienne vers une autre position." alt="" coords="336,56,479,83"/>
+<area shape="rect" id="Node000002" href="$class_ballon.html#a8c636ac31336a2b2eec76f1576768d35" title="Change le possesseur du ballon pour le coéquipier le plus proche." alt="" coords="103,5,288,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,54,254,35,255,30,334,49"/>
+<area shape="rect" id="Node000003" href="$class_player.html#a11786df187ac8623cd05c77ba7d374d7" title="Trouve les adversaires les plus proches." alt="" coords="118,56,272,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,72,273,72,273,67,320,67"/>
+<area shape="rect" id="Node000004" href="$class_player.html#ac5e4d5ec76cddfa912463198b5c16c4d" title="Trouve les coéquipiers les plus proches." alt="" coords="116,107,275,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="334,90,255,109,254,103,333,84"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="5,107,55,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="100,123,55,123,55,117,100,117"/>
+</map>

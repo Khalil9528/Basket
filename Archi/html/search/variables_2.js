@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['number_0',['number',['../class_player.html#af14f0d6ce7546bc1ded859df40cd8819',1,'Player']]]
+  ['l_0',['L',['../namespacepercolation.html#a87271d06573502c89f5dd146d1cc01ca',1,'percolation']]]
 ];

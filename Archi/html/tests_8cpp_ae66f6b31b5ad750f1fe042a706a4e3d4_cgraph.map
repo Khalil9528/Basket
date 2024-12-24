@@ -1,0 +1,26 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Point d&#39;entrée principal pour exécuter tous les tests unitaires." alt="" coords="5,157,55,184"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#aefff4ea23de42727f739179b233e92dd" title="Teste le changement de possesseur du ballon vers un coéquipier." alt="" coords="103,31,300,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,156,59,112,78,88,101,67,109,62,112,67,104,71,82,91,64,115,40,158"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#aa23812749acdd0d9849d6814c20b5b4f" title="Teste le fonctionnement du pattern Composite pour gérer les équipes." alt="" coords="127,81,276,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,158,154,112,157,117,56,162"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="132,157,270,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="55,168,117,168,117,173,55,173"/>
+<area shape="rect" id="Node000012" href="$tests_8cpp.html#af828da53a77f94820f098a25f59a92f9" title="Teste la méthode de calcul de distance entre deux positions." alt="" coords="130,208,272,235"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="56,177,103,193,129,201,128,206,102,199,54,182"/>
+<area shape="rect" id="Node000013" href="$tests_8cpp.html#a95003228e39175982c4976df37f32cf5" title="Teste que la classe Gamescore respecte bien le pattern Singleton." alt="" coords="132,259,271,285"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="42,182,68,214,104,244,118,251,116,256,101,249,64,218,38,186"/>
+<area shape="rect" id="Node000004" href="$class_team_composite.html#a496dc91780e06193400f03971af1f803" title="Ajoute un composant à l&#39;équipe." alt="" coords="366,5,513,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="264,78,299,67,323,54,347,42,366,35,368,40,349,46,325,59,301,72,266,83"/>
+<area shape="rect" id="Node000005" href="$class_team_composite.html#ac664e78f97ebcf92ad8dee7b2eefdc44" title="Affiche les informations de l&#39;équipe." alt="" coords="356,56,524,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="276,84,340,77,341,83,276,89"/>
+<area shape="rect" id="Node000007" href="$class_gamescore.html#a9db89adc5d9852b1ef4dacd74ad84de6" title="Ajoute un arbitre à la liste des observateurs." alt="" coords="361,107,518,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="267,154,358,134,359,140,268,159"/>
+<area shape="rect" id="Node000008" href="$class_gamescore.html#a6ef58730feb82ecc3d7decfb50b32461" title="Obtient l&#39;instance unique de la classe Gamescore." alt="" coords="356,259,523,285"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="272,181,301,194,317,207,326,220,335,232,349,244,360,250,357,255,347,249,331,236,322,223,313,210,299,198,270,186"/>
+<area shape="rect" id="Node000009" href="$class_gamescore.html#aacf5f93e25ceb79948cfc81684dac75e" title="Retire un arbitre de la liste des observateurs." alt="" coords="348,157,531,184"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="271,168,332,168,332,173,271,173"/>
+<area shape="rect" id="Node000010" href="$class_gamescore.html#adc1bea5f62bdb55327e33ee0b627bb32" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="354,208,526,235"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="268,182,359,202,358,207,267,187"/>
+<area shape="poly" id="edge12_Node000013_Node000008" title=" " alt="" coords="271,269,341,269,341,275,271,275"/>
+</map>

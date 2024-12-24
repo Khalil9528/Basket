@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Strategy Class Reference</title>
+<title>Basketball Simulation: Strategy Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">Basketball Simulation
    </div>
   </td>
  </tr>
@@ -98,23 +98,61 @@ $(function(){ initResizable(false); });
 <div class="dynheader">
 Inheritance diagram for Strategy:</div>
 <div class="dyncontent">
- <div class="center">
-  <img src="class_strategy.png" usemap="#Strategy_map" alt=""/>
-  <map id="Strategy_map" name="Strategy_map">
-<area href="class_defensive_strategy.html" title="Classe représentant une stratégie défensive." alt="DefensiveStrategy" shape="rect" coords="0,56,116,80"/>
-<area href="class_offensive_strategy.html" title="Classe représentant une stratégie offensive." alt="OffensiveStrategy" shape="rect" coords="126,56,242,80"/>
-  </map>
-</div></div>
+<div class="center"><img src="class_strategy__inherit__graph.png" border="0" usemap="#a_strategy_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_strategy_inherit__map" id="a_strategy_inherit__map">
+<area shape="rect" title="Classe abstraite représentant une stratégie pour le coach." alt="" coords="81,5,210,96"/>
+<area shape="rect" href="class_defensive_strategy.html" title="Classe représentant une stratégie défensive." alt="" coords="5,144,134,213"/>
+<area shape="poly" title=" " alt="" coords="114,110,92,146,88,143,109,107"/>
+<area shape="rect" href="class_offensive_strategy.html" title="Classe représentant une stratégie offensive." alt="" coords="159,144,288,213"/>
+<area shape="poly" title=" " alt="" coords="183,107,205,143,201,146,179,110"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for Strategy:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_strategy__coll__graph.png" border="0" usemap="#a_strategy_coll__map" alt="Collaboration graph"/></div>
+<map name="a_strategy_coll__map" id="a_strategy_coll__map">
+<area shape="rect" title="Classe abstraite représentant une stratégie pour le coach." alt="" coords="5,5,134,96"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a4762a086f587ed294ca7178e396f142f" id="r_a4762a086f587ed294ca7178e396f142f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4762a086f587ed294ca7178e396f142f">~Strategy</a> ()=default</td></tr>
+<tr class="separator:a4762a086f587ed294ca7178e396f142f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf2693318e3e730c5d68fb4a93ad49f8" id="r_aaf2693318e3e730c5d68fb4a93ad49f8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf2693318e3e730c5d68fb4a93ad49f8">ExecuteStrategy</a> ()=0</td></tr>
 <tr class="memdesc:aaf2693318e3e730c5d68fb4a93ad49f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exécute la stratégie.  <br /></td></tr>
 <tr class="separator:aaf2693318e3e730c5d68fb4a93ad49f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classe abstraite représentant une stratégie pour le coach. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a4762a086f587ed294ca7178e396f142f" name="a4762a086f587ed294ca7178e396f142f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4762a086f587ed294ca7178e396f142f">&#9670;&#160;</a></span>~Strategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Strategy::~Strategy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaf2693318e3e730c5d68fb4a93ad49f8" name="aaf2693318e3e730c5d68fb4a93ad49f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf2693318e3e730c5d68fb4a93ad49f8">&#9670;&#160;</a></span>ExecuteStrategy()</h2>
 
@@ -141,6 +179,18 @@ Public Member Functions</h2></td></tr>
 <p>Exécute la stratégie. </p>
 
 <p>Implemented in <a class="el" href="class_defensive_strategy.html#ad41bb95a48a1c873ebf679baa2cd6d9b">DefensiveStrategy</a>, and <a class="el" href="class_offensive_strategy.html#ace6380d2a1cd9445136c0692c1fcff3e">OffensiveStrategy</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_strategy_aaf2693318e3e730c5d68fb4a93ad49f8_icgraph.png" border="0" usemap="#aclass_strategy_aaf2693318e3e730c5d68fb4a93ad49f8_icgraph" alt=""/></div>
+<map name="aclass_strategy_aaf2693318e3e730c5d68fb4a93ad49f8_icgraph" id="aclass_strategy_aaf2693318e3e730c5d68fb4a93ad49f8_icgraph">
+<area shape="rect" title="Exécute la stratégie." alt="" coords="300,5,475,32"/>
+<area shape="rect" href="class_coach.html#a3e59abe7fab205c807e72091e3fcef13" title="Applique la stratégie actuelle." alt="" coords="103,5,252,32"/>
+<area shape="poly" title=" " alt="" coords="284,21,252,21,252,16,284,16"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
 
 </div>
 </div>

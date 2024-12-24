@@ -1,4 +1,0 @@
-On peut modeliser le terrain de basket par une grille ou on aura les aretes qui modelise 
-la distance entre deux joueurs de basket et si on a un aretes ouvertes alors il y a possibilité
-de passer le ballon sinon on ne peut pas passer le ballon sooit à cause d'un joueur ou qlq chose comme ca 
-on peut modeliser l'equipe n*bleu par le reseau carré et l'equipe rouge par le reseau dual .

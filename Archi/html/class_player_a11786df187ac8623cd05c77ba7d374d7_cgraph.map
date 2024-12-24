@@ -1,0 +1,5 @@
+<map id="Player::find_opponents" name="Player::find_opponents">
+<area shape="rect" id="Node000001" title="Trouve les adversaires les plus proches." alt="" coords="5,5,160,32"/>
+<area shape="rect" id="Node000002" href="$struct_position.html#a3818911a7b5803ed5d2f4401e1428cda" title="Calcule la distance euclidienne vers une autre position." alt="" coords="208,5,351,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,16,192,16,192,21,160,21"/>
+</map>

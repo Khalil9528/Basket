@@ -1,0 +1,7 @@
+<map id="testCompositePattern" name="testCompositePattern">
+<area shape="rect" id="Node000001" title="Teste le fonctionnement du pattern Composite pour gérer les équipes." alt="" coords="5,31,154,57"/>
+<area shape="rect" id="Node000002" href="$class_team_composite.html#a496dc91780e06193400f03971af1f803" title="Ajoute un composant à l&#39;équipe." alt="" coords="212,5,360,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,32,197,27,197,32,154,38"/>
+<area shape="rect" id="Node000003" href="$class_team_composite.html#ac664e78f97ebcf92ad8dee7b2eefdc44" title="Affiche les informations de l&#39;équipe." alt="" coords="202,56,370,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,50,187,54,186,60,153,56"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['notifyarbitres_0',['NotifyArbitres',['../class_gamescore.html#a33501b694da7e5fe43d2cccd0b6bf9db',1,'Gamescore']]]
+  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;tests.cpp']]]
 ];

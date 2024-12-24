@@ -1,0 +1,25 @@
+<map id="basket.cpp" name="basket.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="247,5,333,32"/>
+<area shape="rect" id="Node000002" href="$basket_8hpp.html" title="Fichier en&#45;tête définissant les classes et structures pour une simulation de jeu de basketball." alt="" coords="247,80,333,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,33,293,64,287,64,287,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,155,63,181"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="268,35,183,82,69,149,67,144,181,78,266,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="87,155,144,181"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="277,34,220,82,144,146,140,142,216,78,273,30"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="168,155,239,181"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="278,34,257,55,238,81,223,111,213,141,208,139,218,109,233,79,253,52,274,31"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="341,155,415,181"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="306,31,327,52,347,79,362,109,373,139,368,141,357,111,342,81,323,55,302,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="440,155,508,181"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="309,30,372,78,450,143,447,147,368,82,306,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="532,155,584,181"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="316,30,406,78,525,144,522,149,403,82,313,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="263,155,317,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="293,107,293,139,287,139,287,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="248,109,78,156,77,151,246,104"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="261,110,159,151,157,146,259,105"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="277,109,231,147,228,143,273,105"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="307,105,353,143,349,147,304,109"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="323,105,429,146,427,151,321,110"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="334,103,518,151,516,156,332,108"/>
+</map>

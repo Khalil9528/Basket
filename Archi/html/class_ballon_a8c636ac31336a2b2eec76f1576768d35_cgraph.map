@@ -1,0 +1,5 @@
+<map id="Ballon::changer_possesseur" name="Ballon::changer_possesseur">
+<area shape="rect" id="Node000001" title="Change le possesseur du ballon pour le coéquipier le plus proche." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="Node000002" href="$struct_position.html#a3818911a7b5803ed5d2f4401e1428cda" title="Calcule la distance euclidienne vers une autre position." alt="" coords="239,5,382,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,16,223,16,223,21,191,21"/>
+</map>

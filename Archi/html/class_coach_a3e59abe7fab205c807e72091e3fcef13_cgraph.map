@@ -1,0 +1,5 @@
+<map id="Coach::ApplyStrategy" name="Coach::ApplyStrategy">
+<area shape="rect" id="Node000001" title="Applique la stratégie actuelle." alt="" coords="5,5,155,32"/>
+<area shape="rect" id="Node000002" href="$class_strategy.html#aaf2693318e3e730c5d68fb4a93ad49f8" title="Exécute la stratégie." alt="" coords="203,5,378,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,16,187,16,187,21,155,21"/>
+</map>

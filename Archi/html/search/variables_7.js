@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_0',['y',['../struct_position.html#a54a6182b5f7539295b32255808897d3f',1,'Position']]]
+  ['teammates_0',['Teammates',['../class_player.html#a57b1395a8082f37f113f9ae14d9cb772',1,'Player']]]
 ];

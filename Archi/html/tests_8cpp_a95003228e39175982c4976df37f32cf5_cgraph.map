@@ -1,0 +1,5 @@
+<map id="testSingletonPattern" name="testSingletonPattern">
+<area shape="rect" id="Node000001" title="Teste que la classe Gamescore respecte bien le pattern Singleton." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="Node000002" href="$class_gamescore.html#a6ef58730feb82ecc3d7decfb50b32461" title="Obtient l&#39;instance unique de la classe Gamescore." alt="" coords="193,5,360,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,16,177,16,177,21,145,21"/>
+</map>

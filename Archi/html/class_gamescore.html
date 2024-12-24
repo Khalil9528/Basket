@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Gamescore Class Reference</title>
+<title>Basketball Simulation: Gamescore Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">Basketball Simulation
    </div>
   </td>
  </tr>
@@ -97,6 +97,14 @@ $(function(){ initResizable(false); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="basket_8hpp_source.html">basket.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Gamescore:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore__coll__graph.png" border="0" usemap="#a_gamescore_coll__map" alt="Collaboration graph"/></div>
+<map name="a_gamescore_coll__map" id="a_gamescore_coll__map">
+<area shape="rect" title="Classe gérant le score du jeu (Pattern Singleton et Observable)." alt="" coords="5,5,124,203"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,9 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aacf5f93e25ceb79948cfc81684dac75e" id="r_aacf5f93e25ceb79948cfc81684dac75e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf5f93e25ceb79948cfc81684dac75e">RemoveArbitre</a> (std::shared_ptr&lt; <a class="el" href="class_arbitre.html">Arbitre</a> &gt; arbitre)</td></tr>
 <tr class="memdesc:aacf5f93e25ceb79948cfc81684dac75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retire un arbitre de la liste des observateurs.  <br /></td></tr>
 <tr class="separator:aacf5f93e25ceb79948cfc81684dac75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33501b694da7e5fe43d2cccd0b6bf9db" id="r_a33501b694da7e5fe43d2cccd0b6bf9db"><td class="memItemLeft" align="right" valign="top"><a id="a33501b694da7e5fe43d2cccd0b6bf9db" name="a33501b694da7e5fe43d2cccd0b6bf9db"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>NotifyArbitres</b> ()</td></tr>
-<tr class="memdesc:a33501b694da7e5fe43d2cccd0b6bf9db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifie tous les arbitres des scores actuels. <br /></td></tr>
+<tr class="memitem:a33501b694da7e5fe43d2cccd0b6bf9db" id="r_a33501b694da7e5fe43d2cccd0b6bf9db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33501b694da7e5fe43d2cccd0b6bf9db">NotifyArbitres</a> ()</td></tr>
+<tr class="memdesc:a33501b694da7e5fe43d2cccd0b6bf9db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifie tous les arbitres des scores actuels.  <br /></td></tr>
 <tr class="separator:a33501b694da7e5fe43d2cccd0b6bf9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc1bea5f62bdb55327e33ee0b627bb32" id="r_adc1bea5f62bdb55327e33ee0b627bb32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1bea5f62bdb55327e33ee0b627bb32">UpdateScore</a> (int home, int away)</td></tr>
 <tr class="memdesc:adc1bea5f62bdb55327e33ee0b627bb32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Met à jour les scores du jeu et notifie les arbitres.  <br /></td></tr>
@@ -122,17 +129,14 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab69e8a4a45a7ef793aecf5b6e1fb01f7" id="r_ab69e8a4a45a7ef793aecf5b6e1fb01f7"><td class="memItemLeft" align="right" valign="top"><a id="ab69e8a4a45a7ef793aecf5b6e1fb01f7" name="ab69e8a4a45a7ef793aecf5b6e1fb01f7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>homeScore</b></td></tr>
-<tr class="memdesc:ab69e8a4a45a7ef793aecf5b6e1fb01f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Score actuel de l'équipe à domicile. <br /></td></tr>
+<tr class="memitem:ab69e8a4a45a7ef793aecf5b6e1fb01f7" id="r_ab69e8a4a45a7ef793aecf5b6e1fb01f7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab69e8a4a45a7ef793aecf5b6e1fb01f7">homeScore</a></td></tr>
+<tr class="memdesc:ab69e8a4a45a7ef793aecf5b6e1fb01f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Score actuel de l'équipe à domicile.  <br /></td></tr>
 <tr class="separator:ab69e8a4a45a7ef793aecf5b6e1fb01f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7830ba05655dab59017679a30b76ba5b" id="r_a7830ba05655dab59017679a30b76ba5b"><td class="memItemLeft" align="right" valign="top"><a id="a7830ba05655dab59017679a30b76ba5b" name="a7830ba05655dab59017679a30b76ba5b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>awayScore</b></td></tr>
-<tr class="memdesc:a7830ba05655dab59017679a30b76ba5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Score actuel de l'équipe adverse. <br /></td></tr>
+<tr class="memitem:a7830ba05655dab59017679a30b76ba5b" id="r_a7830ba05655dab59017679a30b76ba5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7830ba05655dab59017679a30b76ba5b">awayScore</a></td></tr>
+<tr class="memdesc:a7830ba05655dab59017679a30b76ba5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Score actuel de l'équipe adverse.  <br /></td></tr>
 <tr class="separator:a7830ba05655dab59017679a30b76ba5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea38939895d1bebb423178b41b7fcfdb" id="r_aea38939895d1bebb423178b41b7fcfdb"><td class="memItemLeft" align="right" valign="top"><a id="aea38939895d1bebb423178b41b7fcfdb" name="aea38939895d1bebb423178b41b7fcfdb"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_arbitre.html">Arbitre</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>arbitres</b></td></tr>
-<tr class="memdesc:aea38939895d1bebb423178b41b7fcfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des arbitres observant le jeu. <br /></td></tr>
+<tr class="memitem:aea38939895d1bebb423178b41b7fcfdb" id="r_aea38939895d1bebb423178b41b7fcfdb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_arbitre.html">Arbitre</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea38939895d1bebb423178b41b7fcfdb">arbitres</a></td></tr>
+<tr class="memdesc:aea38939895d1bebb423178b41b7fcfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des arbitres observant le jeu.  <br /></td></tr>
 <tr class="separator:aea38939895d1bebb423178b41b7fcfdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -160,6 +164,20 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_arbitre.html">Arbi
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6_icgraph.png" border="0" usemap="#aclass_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6_icgraph" alt=""/></div>
+<map name="aclass_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6_icgraph" id="aclass_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6_icgraph">
+<area shape="rect" title="Ajoute un arbitre à la liste des observateurs." alt="" coords="289,31,446,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="147,5,196,32"/>
+<area shape="poly" title=" " alt="" coords="274,35,197,24,197,19,274,29"/>
+<area shape="rect" href="tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="103,56,241,83"/>
+<area shape="poly" title=" " alt="" coords="274,59,242,63,241,58,274,53"/>
+<area shape="rect" href="tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée principal pour exécuter tous les tests unitaires." alt="" coords="5,56,55,83"/>
+<area shape="poly" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -190,6 +208,56 @@ std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_arbitre.html">Arbi
 <dl class="section return"><dt>Returns</dt><dd>Pointeur vers l'instance Singleton.</dd>
 <dd>
 Pointeur vers l'instance singleton. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore_a6ef58730feb82ecc3d7decfb50b32461_icgraph.png" border="0" usemap="#aclass_gamescore_a6ef58730feb82ecc3d7decfb50b32461_icgraph" alt=""/></div>
+<map name="aclass_gamescore_a6ef58730feb82ecc3d7decfb50b32461_icgraph" id="aclass_gamescore_a6ef58730feb82ecc3d7decfb50b32461_icgraph">
+<area shape="rect" title="Obtient l&#39;instance unique de la classe Gamescore." alt="" coords="290,56,457,83"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="148,5,197,32"/>
+<area shape="poly" title=" " alt="" coords="302,54,197,27,198,22,303,49"/>
+<area shape="rect" href="tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="103,56,242,83"/>
+<area shape="poly" title=" " alt="" coords="275,72,242,72,242,67,275,67"/>
+<area shape="rect" href="tests_8cpp.html#a95003228e39175982c4976df37f32cf5" title="Teste que la classe Gamescore respecte bien le pattern Singleton." alt="" coords="103,107,242,133"/>
+<area shape="poly" title=" " alt="" coords="303,90,229,109,228,103,302,85"/>
+<area shape="rect" href="tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée principal pour exécuter tous les tests unitaires." alt="" coords="5,81,55,108"/>
+<area shape="poly" title=" " alt="" coords="88,87,56,93,55,88,88,82"/>
+<area shape="poly" title=" " alt="" coords="87,108,54,102,55,96,88,102"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a33501b694da7e5fe43d2cccd0b6bf9db" name="a33501b694da7e5fe43d2cccd0b6bf9db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33501b694da7e5fe43d2cccd0b6bf9db">&#9670;&#160;</a></span>NotifyArbitres()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Gamescore::NotifyArbitres </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notifie tous les arbitres des scores actuels. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db_icgraph.png" border="0" usemap="#aclass_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db_icgraph" alt=""/></div>
+<map name="aclass_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db_icgraph" id="aclass_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db_icgraph">
+<area shape="rect" title="Notifie tous les arbitres des scores actuels." alt="" coords="412,31,588,57"/>
+<area shape="rect" href="class_gamescore.html#adc1bea5f62bdb55327e33ee0b627bb32" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="192,31,364,57"/>
+<area shape="poly" title=" " alt="" coords="396,47,365,47,365,41,396,41"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="50,5,99,32"/>
+<area shape="poly" title=" " alt="" coords="176,34,99,24,100,19,177,29"/>
+<area shape="rect" href="tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="5,56,144,83"/>
+<area shape="poly" title=" " alt="" coords="177,59,144,63,144,58,176,54"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -215,6 +283,20 @@ Pointeur vers l'instance singleton. </dd></dl>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore_aacf5f93e25ceb79948cfc81684dac75e_icgraph.png" border="0" usemap="#aclass_gamescore_aacf5f93e25ceb79948cfc81684dac75e_icgraph" alt=""/></div>
+<map name="aclass_gamescore_aacf5f93e25ceb79948cfc81684dac75e_icgraph" id="aclass_gamescore_aacf5f93e25ceb79948cfc81684dac75e_icgraph">
+<area shape="rect" title="Retire un arbitre de la liste des observateurs." alt="" coords="289,31,472,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="147,5,196,32"/>
+<area shape="poly" title=" " alt="" coords="273,34,197,24,197,19,274,28"/>
+<area shape="rect" href="tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="103,56,241,83"/>
+<area shape="poly" title=" " alt="" coords="274,60,242,64,241,58,273,54"/>
+<area shape="rect" href="tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée principal pour exécuter tous les tests unitaires." alt="" coords="5,56,55,83"/>
+<area shape="poly" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -245,6 +327,79 @@ Pointeur vers l'instance singleton. </dd></dl>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_cgraph.png" border="0" usemap="#aclass_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_cgraph" alt=""/></div>
+<map name="aclass_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_cgraph" id="aclass_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_cgraph">
+<area shape="rect" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="5,5,178,32"/>
+<area shape="rect" href="class_gamescore.html#a33501b694da7e5fe43d2cccd0b6bf9db" title="Notifie tous les arbitres des scores actuels." alt="" coords="226,5,402,32"/>
+<area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_icgraph.png" border="0" usemap="#aclass_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_icgraph" alt=""/></div>
+<map name="aclass_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_icgraph" id="aclass_gamescore_adc1bea5f62bdb55327e33ee0b627bb32_icgraph">
+<area shape="rect" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="289,31,461,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="147,5,196,32"/>
+<area shape="poly" title=" " alt="" coords="273,34,197,24,197,19,274,29"/>
+<area shape="rect" href="tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="103,56,241,83"/>
+<area shape="poly" title=" " alt="" coords="274,59,242,63,241,58,273,54"/>
+<area shape="rect" href="tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée principal pour exécuter tous les tests unitaires." alt="" coords="5,56,55,83"/>
+<area shape="poly" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aea38939895d1bebb423178b41b7fcfdb" name="aea38939895d1bebb423178b41b7fcfdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea38939895d1bebb423178b41b7fcfdb">&#9670;&#160;</a></span>arbitres</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="class_arbitre.html">Arbitre</a>&gt; &gt; Gamescore::arbitres</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Liste des arbitres observant le jeu. </p>
+
+</div>
+</div>
+<a id="a7830ba05655dab59017679a30b76ba5b" name="a7830ba05655dab59017679a30b76ba5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7830ba05655dab59017679a30b76ba5b">&#9670;&#160;</a></span>awayScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Gamescore::awayScore</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Score actuel de l'équipe adverse. </p>
+
+</div>
+</div>
+<a id="ab69e8a4a45a7ef793aecf5b6e1fb01f7" name="ab69e8a4a45a7ef793aecf5b6e1fb01f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab69e8a4a45a7ef793aecf5b6e1fb01f7">&#9670;&#160;</a></span>homeScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Gamescore::homeScore</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Score actuel de l'équipe à domicile. </p>
 
 </div>
 </div>

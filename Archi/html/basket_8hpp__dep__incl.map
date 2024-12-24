@@ -1,0 +1,9 @@
+<map id="basket.hpp" name="basket.hpp">
+<area shape="rect" id="Node000001" title="Fichier en&#45;tête définissant les classes et structures pour une simulation de jeu de basketball." alt="" coords="49,5,134,32"/>
+<area shape="rect" id="Node000002" href="$basket_8cpp.html" title=" " alt="" coords="49,80,134,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,48,94,80,89,80,89,48"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Point d&#39;entrée principal pour tester les fonctionnalités du projet de simulation de basketball." alt="" coords="5,155,80,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,121,53,156,49,153,72,118"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html" title="Fichier contenant les tests unitaires pour les différentes fonctionnalités du projet." alt="" coords="104,155,179,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="111,118,135,153,130,156,107,121"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="TeamComponent" name="TeamComponent">
+<area shape="rect" id="Node000001" title="Classe abstraite pour les composants dans le Pattern Composite." alt="" coords="44,5,183,96"/>
+<area shape="rect" id="Node000002" href="$class_player_leaf.html" title="Classe représentant un joueur individuel dans une équipe." alt="" coords="5,155,99,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,111,73,156,68,154,87,109"/>
+<area shape="rect" id="Node000003" href="$class_team_composite.html" title="Classe représentant une équipe composée de joueurs ou de sous&#45;équipes." alt="" coords="124,144,229,256"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,109,155,143,151,145,136,111"/>
+</map>

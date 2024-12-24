@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_team_component.html" title="Classe abstraite pour les composants dans le Pattern Composite." alt="" coords="5,31,126,57"/>
+<area shape="rect" id="Node000001" href="$class_player_leaf.html" title="Classe représentant un joueur individuel dans une équipe." alt="" coords="190,5,274,32"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="140,30,190,22,190,28,141,35"/>
+<area shape="rect" id="Node000002" href="$class_team_composite.html" title="Classe représentant une équipe composée de joueurs ou de sous&#45;équipes." alt="" coords="174,56,290,83"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="141,53,174,58,173,63,141,58"/>
+</map>

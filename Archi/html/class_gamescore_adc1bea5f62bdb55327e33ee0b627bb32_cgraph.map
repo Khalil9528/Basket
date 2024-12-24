@@ -1,0 +1,5 @@
+<map id="Gamescore::UpdateScore" name="Gamescore::UpdateScore">
+<area shape="rect" id="Node000001" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="5,5,178,32"/>
+<area shape="rect" id="Node000002" href="$class_gamescore.html#a33501b694da7e5fe43d2cccd0b6bf9db" title="Notifie tous les arbitres des scores actuels." alt="" coords="226,5,402,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
+</map>

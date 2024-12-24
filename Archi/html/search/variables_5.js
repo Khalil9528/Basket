@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['teammates_0',['Teammates',['../class_player.html#a57b1395a8082f37f113f9ae14d9cb772',1,'Player']]]
+  ['opponents_0',['Opponents',['../class_player.html#a75476de6fc8c2bd208f78be4c84cf315',1,'Player']]]
 ];

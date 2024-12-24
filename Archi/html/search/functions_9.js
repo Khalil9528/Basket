@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['playerleaf_0',['PlayerLeaf',['../class_player_leaf.html#a32c242ffb173d06dea2d58f3b8ca3118',1,'PlayerLeaf']]]
+  ['observeplayer_0',['ObservePlayer',['../class_coach.html#a3bf73eeed922cd59c1cfeb489f23c0f5',1,'Coach']]]
 ];

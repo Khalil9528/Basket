@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="5,233,55,260"/>
+<area shape="rect" id="Node000002" href="$class_team_composite.html#a496dc91780e06193400f03971af1f803" title="Ajoute un composant à l&#39;équipe." alt="" coords="121,5,268,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="29,233,34,195,45,144,66,90,81,64,101,42,105,38,109,42,105,46,86,67,71,92,50,145,39,196,35,233"/>
+<area shape="rect" id="Node000003" href="$class_gamescore.html#a9db89adc5d9852b1ef4dacd74ad84de6" title="Ajoute un arbitre à la liste des observateurs." alt="" coords="116,56,273,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="31,232,38,203,51,166,72,126,101,93,106,88,110,93,104,97,76,129,56,168,43,205,36,234"/>
+<area shape="rect" id="Node000004" href="$class_coach.html#a3e59abe7fab205c807e72091e3fcef13" title="Applique la stratégie actuelle." alt="" coords="120,107,269,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="35,232,59,188,78,164,101,143,109,138,112,143,104,147,82,167,64,191,40,234"/>
+<area shape="rect" id="Node000006" href="$class_team_composite.html#ac664e78f97ebcf92ad8dee7b2eefdc44" title="Affiche les informations de l&#39;équipe." alt="" coords="110,157,278,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="46,231,71,212,101,194,117,187,119,192,104,198,74,216,49,235"/>
+<area shape="rect" id="Node000007" href="$class_player.html#ac5e4d5ec76cddfa912463198b5c16c4d" title="Trouve les coéquipiers les plus proches." alt="" coords="115,208,274,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="55,240,99,233,100,239,56,246"/>
+<area shape="rect" id="Node000009" href="$class_gamescore.html#a6ef58730feb82ecc3d7decfb50b32461" title="Obtient l&#39;instance unique de la classe Gamescore." alt="" coords="111,259,278,285"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="56,248,96,254,95,259,55,253"/>
+<area shape="rect" id="Node000010" href="$class_coach.html#a3bf73eeed922cd59c1cfeb489f23c0f5" title="Observe l&#39;état d&#39;un joueur." alt="" coords="118,309,271,336"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="49,258,74,277,104,295,119,301,117,306,101,300,71,282,46,263"/>
+<area shape="rect" id="Node000011" href="$class_gamescore.html#aacf5f93e25ceb79948cfc81684dac75e" title="Retire un arbitre de la liste des observateurs." alt="" coords="103,360,286,387"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="40,259,64,302,82,326,104,346,112,351,109,355,101,350,78,330,59,305,35,262"/>
+<area shape="rect" id="Node000012" href="$class_coach.html#a55fbb2b82e32ac1559b71319208779ea" title="Définit la stratégie actuelle." alt="" coords="126,411,262,437"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="36,260,43,288,56,326,76,364,104,397,114,403,111,408,101,401,72,367,51,328,38,290,31,261"/>
+<area shape="rect" id="Node000013" href="$class_gamescore.html#adc1bea5f62bdb55327e33ee0b627bb32" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="108,461,280,488"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="35,260,39,297,50,348,71,401,86,426,105,447,108,451,105,455,101,451,81,429,66,404,45,349,34,298,29,261"/>
+<area shape="rect" id="Node000005" href="$class_strategy.html#aaf2693318e3e730c5d68fb4a93ad49f8" title="Exécute la stratégie." alt="" coords="334,107,510,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="269,117,319,117,319,123,269,123"/>
+<area shape="rect" id="Node000008" href="$struct_position.html#a3818911a7b5803ed5d2f4401e1428cda" title="Calcule la distance euclidienne vers une autre position." alt="" coords="350,208,494,235"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="274,219,335,219,335,224,274,224"/>
+<area shape="rect" id="Node000014" href="$class_gamescore.html#a33501b694da7e5fe43d2cccd0b6bf9db" title="Notifie tous les arbitres des scores actuels." alt="" coords="334,461,510,488"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="281,472,318,472,318,477,281,477"/>
+</map>

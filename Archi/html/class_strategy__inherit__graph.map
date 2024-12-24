@@ -1,0 +1,7 @@
+<map id="Strategy" name="Strategy">
+<area shape="rect" id="Node000001" title="Classe abstraite représentant une stratégie pour le coach." alt="" coords="81,5,210,96"/>
+<area shape="rect" id="Node000002" href="$class_defensive_strategy.html" title="Classe représentant une stratégie défensive." alt="" coords="5,144,134,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,110,92,146,88,143,109,107"/>
+<area shape="rect" id="Node000003" href="$class_offensive_strategy.html" title="Classe représentant une stratégie offensive." alt="" coords="159,144,288,213"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,107,205,143,201,146,179,110"/>
+</map>

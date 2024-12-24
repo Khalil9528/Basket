@@ -1,0 +1,5 @@
+<map id="RefereeDisplay" name="RefereeDisplay">
+<area shape="rect" id="Node000001" title="Classe pour afficher les mises à jour des arbitres." alt="" coords="5,144,106,213"/>
+<area shape="rect" id="Node000002" href="$class_arbitre.html" title="Interface pour les arbitres observant le jeu (Pattern Observer)." alt="" coords="17,5,95,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,111,58,144,53,144,53,111"/>
+</map>

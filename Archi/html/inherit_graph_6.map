@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_strategy.html" title="Classe abstraite représentant une stratégie pour le coach." alt="" coords="5,31,76,57"/>
+<area shape="rect" id="Node000001" href="$class_defensive_strategy.html" title="Classe représentant une stratégie défensive." alt="" coords="124,5,253,32"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="91,33,123,27,124,32,92,38"/>
+<area shape="rect" id="Node000002" href="$class_offensive_strategy.html" title="Classe représentant une stratégie offensive." alt="" coords="126,56,251,83"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="92,50,126,56,125,61,91,55"/>
+</map>

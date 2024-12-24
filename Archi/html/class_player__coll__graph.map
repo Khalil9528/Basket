@@ -1,0 +1,6 @@
+<map id="Player" name="Player">
+<area shape="rect" id="Node000001" title="Classe représentant un joueur dans le jeu de basketball." alt="" coords="5,160,130,272"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="131,197,149,203,157,216,155,224,148,229,145,225,150,221,152,216,146,207,129,202"/>
+<area shape="rect" id="Node000002" href="$struct_position.html" title="Structure représentant une position dans un espace 2D." alt="" coords="18,5,117,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,96,70,143,65,143,65,96"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Player::find_teammates" name="Player::find_teammates">
+<area shape="rect" id="Node000001" title="Trouve les coéquipiers les plus proches." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="Node000002" href="$struct_position.html#a3818911a7b5803ed5d2f4401e1428cda" title="Calcule la distance euclidienne vers une autre position." alt="" coords="213,5,356,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,16,197,16,197,21,165,21"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="TeamComposite::Display" name="TeamComposite::Display">
+<area shape="rect" id="Node000001" title="Affiche les informations de l&#39;équipe." alt="" coords="299,31,467,57"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="152,5,202,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="283,34,201,24,202,19,284,29"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#aa23812749acdd0d9849d6814c20b5b4f" title="Teste le fonctionnement du pattern Composite pour gérer les équipes." alt="" coords="103,56,251,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,59,252,63,251,58,283,54"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée principal pour exécuter tous les tests unitaires." alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>

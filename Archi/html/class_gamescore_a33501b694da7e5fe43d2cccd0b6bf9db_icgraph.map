@@ -1,0 +1,9 @@
+<map id="Gamescore::NotifyArbitres" name="Gamescore::NotifyArbitres">
+<area shape="rect" id="Node000001" title="Notifie tous les arbitres des scores actuels." alt="" coords="412,31,588,57"/>
+<area shape="rect" id="Node000002" href="$class_gamescore.html#adc1bea5f62bdb55327e33ee0b627bb32" title="Met à jour les scores du jeu et notifie les arbitres." alt="" coords="192,31,364,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="396,47,365,47,365,41,396,41"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Fonction principale pour exécuter les tests des fonctionnalités principales." alt="" coords="50,5,99,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,34,99,24,100,19,177,29"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a81101fb3ae1e7cebc7f7824d4bb42f23" title="Teste le fonctionnement du pattern Observer avec les arbitres." alt="" coords="5,56,144,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="177,59,144,63,144,58,176,54"/>
+</map>
