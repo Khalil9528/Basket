@@ -1,0 +1,82 @@
+\doxysection{Coach Class Reference}
+\hypertarget{class_coach}{}\label{class_coach}\index{Coach@{Coach}}
+
+
+Classe représentant le coach, qui applique des stratégies et observe les joueurs.  
+
+
+
+
+{\ttfamily \#include $<$basket.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_coach_aed4a9724c09d7913a5149bd99209e827}{Coach}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_coach_a55fbb2b82e32ac1559b71319208779ea}{Set\+Strategy}} (\mbox{\hyperlink{class_strategy}{Strategy}} \texorpdfstring{$\ast$}{*}strategy)
+\begin{DoxyCompactList}\small\item\em Définit la stratégie actuelle. \end{DoxyCompactList}\item 
+\Hypertarget{class_coach_a3e59abe7fab205c807e72091e3fcef13}\label{class_coach_a3e59abe7fab205c807e72091e3fcef13} 
+void {\bfseries Apply\+Strategy} ()
+\begin{DoxyCompactList}\small\item\em Applique la stratégie actuelle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_coach_a3bf73eeed922cd59c1cfeb489f23c0f5}{Observe\+Player}} (const \mbox{\hyperlink{class_player}{Player}} \&player)
+\begin{DoxyCompactList}\small\item\em Observe l\textquotesingle{}état d\textquotesingle{}un joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe représentant le coach, qui applique des stratégies et observe les joueurs. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_coach_aed4a9724c09d7913a5149bd99209e827}\index{Coach@{Coach}!Coach@{Coach}}
+\index{Coach@{Coach}!Coach@{Coach}}
+\doxysubsubsection{\texorpdfstring{Coach()}{Coach()}}
+{\footnotesize\ttfamily \label{class_coach_aed4a9724c09d7913a5149bd99209e827} 
+Coach\+::\+Coach (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+Constructeur par défaut de \doxylink{class_coach}{Coach}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_coach_a3bf73eeed922cd59c1cfeb489f23c0f5}\index{Coach@{Coach}!ObservePlayer@{ObservePlayer}}
+\index{ObservePlayer@{ObservePlayer}!Coach@{Coach}}
+\doxysubsubsection{\texorpdfstring{ObservePlayer()}{ObservePlayer()}}
+{\footnotesize\ttfamily \label{class_coach_a3bf73eeed922cd59c1cfeb489f23c0f5} 
+void Coach\+::\+Observe\+Player (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_player}{Player}} \&}]{player}{}\end{DoxyParamCaption})}
+
+
+
+Observe l\textquotesingle{}état d\textquotesingle{}un joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & Joueur à observer.\\
+\hline
+{\em player} & Le joueur à observer. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_coach_a55fbb2b82e32ac1559b71319208779ea}\index{Coach@{Coach}!SetStrategy@{SetStrategy}}
+\index{SetStrategy@{SetStrategy}!Coach@{Coach}}
+\doxysubsubsection{\texorpdfstring{SetStrategy()}{SetStrategy()}}
+{\footnotesize\ttfamily \label{class_coach_a55fbb2b82e32ac1559b71319208779ea} 
+void Coach\+::\+Set\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_strategy}{Strategy}} \texorpdfstring{$\ast$}{*}}]{strategy}{}\end{DoxyParamCaption})}
+
+
+
+Définit la stratégie actuelle. 
+
+Définit la stratégie actuelle pour le coach.
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy} & Pointeur vers la stratégie. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{basket_8hpp}{basket.\+hpp}}\item 
+basket.\+cpp\end{DoxyCompactItemize}

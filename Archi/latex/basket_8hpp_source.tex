@@ -1,0 +1,144 @@
+\doxysection{basket.\+hpp}
+\hypertarget{basket_8hpp_source}{}\label{basket_8hpp_source}\mbox{\hyperlink{basket_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ BASKET\_HPP}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ BASKET\_HPP}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <cmath>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{comment}{//\ Dimensions\ du\ terrain}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#define\ basket\_x\ 100.f\ }}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ basket\_y\ 50.f\ }}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_position}{Position}}\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{struct_position_af684446cbf0f6d53386686283da6dcc6}{x}};\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{struct_position_a54a6182b5f7539295b32255808897d3f}{y}};\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{struct_position_a3818911a7b5803ed5d2f4401e1428cda}{distance\_to}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{struct_position}{Position}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00034\ \};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00039\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_player}{Player}}\ \{}
+\DoxyCodeLine{00040\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00041\ \ \ \ \ \mbox{\hyperlink{struct_position}{Position}}\ \mbox{\hyperlink{class_player_af3e20453950b389dbf9ce9486c3a39a7}{position}};\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_player_a9e7de5d7b8ece830f8c6f39df9be035d}{possede\_ball}}\ =\ \textcolor{keyword}{false};\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_player_af14f0d6ce7546bc1ded859df40cd8819}{number}};\ }
+\DoxyCodeLine{00044\ \ \ \ \ \mbox{\hyperlink{class_player}{Player}}*\ \mbox{\hyperlink{class_player_a57b1395a8082f37f113f9ae14d9cb772}{Teammates}}[4];\ }
+\DoxyCodeLine{00045\ \ \ \ \ \mbox{\hyperlink{class_player}{Player}}*\ \mbox{\hyperlink{class_player_a75476de6fc8c2bd208f78be4c84cf315}{Opponents}}[5];\ }
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_ac5e4d5ec76cddfa912463198b5c16c4d}{find\_teammates}}(\textcolor{keyword}{const}\ std::vector<Player>\&\ players,\ \textcolor{keywordtype}{int}\ team\_id);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_a11786df187ac8623cd05c77ba7d374d7}{find\_opponents}}(\textcolor{keyword}{const}\ std::vector<Player>\&\ players,\ \textcolor{keywordtype}{int}\ team\_id);}
+\DoxyCodeLine{00060\ \};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00065\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ballon}{Ballon}}\ \{}
+\DoxyCodeLine{00066\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00067\ \ \ \ \ \mbox{\hyperlink{struct_position}{Position}}\ \mbox{\hyperlink{class_ballon_a177a49623c4675ad8cbe66a4b0b8dd14}{position}};\ }
+\DoxyCodeLine{00068\ \ \ \ \ \mbox{\hyperlink{class_player}{Player}}*\ \mbox{\hyperlink{class_ballon_ac8a261d4c529c6f9c9b776eae8139f4d}{possesseur}}\ =\ \textcolor{keyword}{nullptr};\ }
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_ballon_a8c636ac31336a2b2eec76f1576768d35}{changer\_possesseur}}();}
+\DoxyCodeLine{00075\ \};}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00080\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_arbitre}{Arbitre}}\ \{}
+\DoxyCodeLine{00081\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_arbitre}{\string~Arbitre}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_arbitre_aea0e81ace656d5a71c869a7f3101715e}{Update}}(\textcolor{keywordtype}{int}\ homeScore,\ \textcolor{keywordtype}{int}\ awayScore)\ =\ 0;}
+\DoxyCodeLine{00090\ \};}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00095\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_referee_display}{RefereeDisplay}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_arbitre}{Arbitre}}\ \{}
+\DoxyCodeLine{00096\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00102\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_referee_display_a1466c1d543b30973526c1dea267273cb}{Update}}(\textcolor{keywordtype}{int}\ homeScore,\ \textcolor{keywordtype}{int}\ awayScore)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00103\ \};}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00108\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_gamescore}{Gamescore}}\ \{}
+\DoxyCodeLine{00109\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00110\ \ \ \ \ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_gamescore}{Gamescore}}*\ instance;\ }
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00115\ \ \ \ \ \mbox{\hyperlink{class_gamescore}{Gamescore}}();}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00117\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00118\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_gamescore_ab69e8a4a45a7ef793aecf5b6e1fb01f7}{homeScore}};\ }
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_gamescore_a7830ba05655dab59017679a30b76ba5b}{awayScore}};\ }
+\DoxyCodeLine{00120\ \ \ \ \ std::vector<std::shared\_ptr<Arbitre>>\ \mbox{\hyperlink{class_gamescore_aea38939895d1bebb423178b41b7fcfdb}{arbitres}};\ }
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00126\ \ \ \ \ \textcolor{keyword}{static}\ \mbox{\hyperlink{class_gamescore}{Gamescore}}*\ \mbox{\hyperlink{class_gamescore_a6ef58730feb82ecc3d7decfb50b32461}{GetInstance}}();}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00132\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6}{AddArbitre}}(std::shared\_ptr<Arbitre>\ arbitre);}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00138\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gamescore_aacf5f93e25ceb79948cfc81684dac75e}{RemoveArbitre}}(std::shared\_ptr<Arbitre>\ arbitre);}
+\DoxyCodeLine{00139\ }
+\DoxyCodeLine{00143\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db}{NotifyArbitres}}();}
+\DoxyCodeLine{00144\ }
+\DoxyCodeLine{00150\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_gamescore_adc1bea5f62bdb55327e33ee0b627bb32}{UpdateScore}}(\textcolor{keywordtype}{int}\ home,\ \textcolor{keywordtype}{int}\ away);}
+\DoxyCodeLine{00151\ \};}
+\DoxyCodeLine{00152\ }
+\DoxyCodeLine{00156\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_strategy}{Strategy}}\ \{}
+\DoxyCodeLine{00157\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00158\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_strategy}{\string~Strategy}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00159\ }
+\DoxyCodeLine{00163\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_strategy_aaf2693318e3e730c5d68fb4a93ad49f8}{ExecuteStrategy}}()\ =\ 0;}
+\DoxyCodeLine{00164\ \};}
+\DoxyCodeLine{00165\ }
+\DoxyCodeLine{00169\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_offensive_strategy}{OffensiveStrategy}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_strategy}{Strategy}}\ \{}
+\DoxyCodeLine{00170\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00174\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_offensive_strategy_ace6380d2a1cd9445136c0692c1fcff3e}{ExecuteStrategy}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00175\ \};}
+\DoxyCodeLine{00176\ }
+\DoxyCodeLine{00180\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_defensive_strategy}{DefensiveStrategy}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_strategy}{Strategy}}\ \{}
+\DoxyCodeLine{00181\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00185\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_defensive_strategy_ad41bb95a48a1c873ebf679baa2cd6d9b}{ExecuteStrategy}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00186\ \};}
+\DoxyCodeLine{00187\ }
+\DoxyCodeLine{00191\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_coach}{Coach}}\ \{}
+\DoxyCodeLine{00192\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00193\ \ \ \ \ \mbox{\hyperlink{class_strategy}{Strategy}}*\ currentStrategy;\ }
+\DoxyCodeLine{00194\ }
+\DoxyCodeLine{00195\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00196\ \ \ \ \ \mbox{\hyperlink{class_coach_aed4a9724c09d7913a5149bd99209e827}{Coach}}();\ }
+\DoxyCodeLine{00197\ }
+\DoxyCodeLine{00202\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_coach_a55fbb2b82e32ac1559b71319208779ea}{SetStrategy}}(\mbox{\hyperlink{class_strategy}{Strategy}}*\ strategy);}
+\DoxyCodeLine{00203\ }
+\DoxyCodeLine{00207\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_coach_a3e59abe7fab205c807e72091e3fcef13}{ApplyStrategy}}();}
+\DoxyCodeLine{00208\ }
+\DoxyCodeLine{00213\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_coach_a3bf73eeed922cd59c1cfeb489f23c0f5}{ObservePlayer}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_player}{Player}}\&\ player);}
+\DoxyCodeLine{00214\ \};}
+\DoxyCodeLine{00215\ }
+\DoxyCodeLine{00219\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_team_component}{TeamComponent}}\ \{}
+\DoxyCodeLine{00220\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00221\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_team_component}{\string~TeamComponent}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00222\ }
+\DoxyCodeLine{00226\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_team_component_a90a3e99676299dbfef570afb07d27295}{Display}}()\ \textcolor{keyword}{const}\ =\ 0;}
+\DoxyCodeLine{00227\ \};}
+\DoxyCodeLine{00228\ }
+\DoxyCodeLine{00232\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_player_leaf}{PlayerLeaf}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_team_component}{TeamComponent}}\ \{}
+\DoxyCodeLine{00233\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00234\ \ \ \ \ \mbox{\hyperlink{class_player}{Player}}*\ player;\ }
+\DoxyCodeLine{00235\ }
+\DoxyCodeLine{00236\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00237\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_player_leaf_a32c242ffb173d06dea2d58f3b8ca3118}{PlayerLeaf}}(\mbox{\hyperlink{class_player}{Player}}*\ p);\ }
+\DoxyCodeLine{00238\ }
+\DoxyCodeLine{00242\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_player_leaf_a7d1598d316ecb51033df842820d039ab}{Display}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00243\ \};}
+\DoxyCodeLine{00244\ }
+\DoxyCodeLine{00248\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_team_composite}{TeamComposite}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_team_component}{TeamComponent}}\ \{}
+\DoxyCodeLine{00249\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00250\ \ \ \ \ std::vector<TeamComponent*>\ components;\ }
+\DoxyCodeLine{00251\ }
+\DoxyCodeLine{00252\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00257\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_team_composite_a496dc91780e06193400f03971af1f803}{Add}}(\mbox{\hyperlink{class_team_component}{TeamComponent}}*\ component);}
+\DoxyCodeLine{00258\ }
+\DoxyCodeLine{00263\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_team_composite_a056f8cfc118457d526418c1165eee196}{Remove}}(\mbox{\hyperlink{class_team_component}{TeamComponent}}*\ component);}
+\DoxyCodeLine{00264\ }
+\DoxyCodeLine{00268\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_team_composite_ac664e78f97ebcf92ad8dee7b2eefdc44}{Display}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00269\ \};}
+\DoxyCodeLine{00270\ }
+\DoxyCodeLine{00271\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ BASKET\_HPP}}
+
+\end{DoxyCode}

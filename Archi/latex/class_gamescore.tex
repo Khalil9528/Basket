@@ -1,0 +1,114 @@
+\doxysection{Gamescore Class Reference}
+\hypertarget{class_gamescore}{}\label{class_gamescore}\index{Gamescore@{Gamescore}}
+
+
+Classe gérant le score du jeu (Pattern Singleton et Observable).  
+
+
+
+
+{\ttfamily \#include $<$basket.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6}{Add\+Arbitre}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arbitre}{Arbitre}} $>$ arbitre)
+\begin{DoxyCompactList}\small\item\em Ajoute un arbitre à la liste des observateurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_gamescore_aacf5f93e25ceb79948cfc81684dac75e}{Remove\+Arbitre}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arbitre}{Arbitre}} $>$ arbitre)
+\begin{DoxyCompactList}\small\item\em Retire un arbitre de la liste des observateurs. \end{DoxyCompactList}\item 
+\Hypertarget{class_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db}\label{class_gamescore_a33501b694da7e5fe43d2cccd0b6bf9db} 
+void {\bfseries Notify\+Arbitres} ()
+\begin{DoxyCompactList}\small\item\em Notifie tous les arbitres des scores actuels. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_gamescore_adc1bea5f62bdb55327e33ee0b627bb32}{Update\+Score}} (int home, int away)
+\begin{DoxyCompactList}\small\item\em Met à jour les scores du jeu et notifie les arbitres. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_gamescore}{Gamescore}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_gamescore_a6ef58730feb82ecc3d7decfb50b32461}{Get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Obtient l\textquotesingle{}instance unique de la classe \doxylink{class_gamescore}{Gamescore}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_gamescore_ab69e8a4a45a7ef793aecf5b6e1fb01f7}\label{class_gamescore_ab69e8a4a45a7ef793aecf5b6e1fb01f7} 
+int {\bfseries home\+Score}
+\begin{DoxyCompactList}\small\item\em Score actuel de l\textquotesingle{}équipe à domicile. \end{DoxyCompactList}\item 
+\Hypertarget{class_gamescore_a7830ba05655dab59017679a30b76ba5b}\label{class_gamescore_a7830ba05655dab59017679a30b76ba5b} 
+int {\bfseries away\+Score}
+\begin{DoxyCompactList}\small\item\em Score actuel de l\textquotesingle{}équipe adverse. \end{DoxyCompactList}\item 
+\Hypertarget{class_gamescore_aea38939895d1bebb423178b41b7fcfdb}\label{class_gamescore_aea38939895d1bebb423178b41b7fcfdb} 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arbitre}{Arbitre}} $>$ $>$ {\bfseries arbitres}
+\begin{DoxyCompactList}\small\item\em Liste des arbitres observant le jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe gérant le score du jeu (Pattern Singleton et Observable). 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6}\index{Gamescore@{Gamescore}!AddArbitre@{AddArbitre}}
+\index{AddArbitre@{AddArbitre}!Gamescore@{Gamescore}}
+\doxysubsubsection{\texorpdfstring{AddArbitre()}{AddArbitre()}}
+{\footnotesize\ttfamily \label{class_gamescore_a9db89adc5d9852b1ef4dacd74ad84de6} 
+void Gamescore\+::\+Add\+Arbitre (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arbitre}{Arbitre}} $>$}]{arbitre}{}\end{DoxyParamCaption})}
+
+
+
+Ajoute un arbitre à la liste des observateurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbitre} & Pointeur partagé vers l\textquotesingle{}arbitre. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_gamescore_a6ef58730feb82ecc3d7decfb50b32461}\index{Gamescore@{Gamescore}!GetInstance@{GetInstance}}
+\index{GetInstance@{GetInstance}!Gamescore@{Gamescore}}
+\doxysubsubsection{\texorpdfstring{GetInstance()}{GetInstance()}}
+{\footnotesize\ttfamily \label{class_gamescore_a6ef58730feb82ecc3d7decfb50b32461} 
+\mbox{\hyperlink{class_gamescore}{Gamescore}} \texorpdfstring{$\ast$}{*} Gamescore\+::\+Get\+Instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtient l\textquotesingle{}instance unique de la classe \doxylink{class_gamescore}{Gamescore}. 
+
+\begin{DoxyReturn}{Returns}
+Pointeur vers l\textquotesingle{}instance Singleton.
+
+Pointeur vers l\textquotesingle{}instance singleton. 
+\end{DoxyReturn}
+\Hypertarget{class_gamescore_aacf5f93e25ceb79948cfc81684dac75e}\index{Gamescore@{Gamescore}!RemoveArbitre@{RemoveArbitre}}
+\index{RemoveArbitre@{RemoveArbitre}!Gamescore@{Gamescore}}
+\doxysubsubsection{\texorpdfstring{RemoveArbitre()}{RemoveArbitre()}}
+{\footnotesize\ttfamily \label{class_gamescore_aacf5f93e25ceb79948cfc81684dac75e} 
+void Gamescore\+::\+Remove\+Arbitre (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_arbitre}{Arbitre}} $>$}]{arbitre}{}\end{DoxyParamCaption})}
+
+
+
+Retire un arbitre de la liste des observateurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbitre} & Pointeur partagé vers l\textquotesingle{}arbitre. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_gamescore_adc1bea5f62bdb55327e33ee0b627bb32}\index{Gamescore@{Gamescore}!UpdateScore@{UpdateScore}}
+\index{UpdateScore@{UpdateScore}!Gamescore@{Gamescore}}
+\doxysubsubsection{\texorpdfstring{UpdateScore()}{UpdateScore()}}
+{\footnotesize\ttfamily \label{class_gamescore_adc1bea5f62bdb55327e33ee0b627bb32} 
+void Gamescore\+::\+Update\+Score (\begin{DoxyParamCaption}\item[{int}]{home}{, }\item[{int}]{away}{}\end{DoxyParamCaption})}
+
+
+
+Met à jour les scores du jeu et notifie les arbitres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em home} & Score de l\textquotesingle{}équipe à domicile. \\
+\hline
+{\em away} & Score de l\textquotesingle{}équipe adverse. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{basket_8hpp}{basket.\+hpp}}\item 
+basket.\+cpp\end{DoxyCompactItemize}

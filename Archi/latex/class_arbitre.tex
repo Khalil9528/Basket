@@ -1,0 +1,54 @@
+\doxysection{Arbitre Class Reference}
+\hypertarget{class_arbitre}{}\label{class_arbitre}\index{Arbitre@{Arbitre}}
+
+
+Interface pour les arbitres observant le jeu (Pattern Observer).  
+
+
+
+
+{\ttfamily \#include $<$basket.\+hpp$>$}
+
+Inheritance diagram for Arbitre\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_arbitre}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_arbitre_aea0e81ace656d5a71c869a7f3101715e}{Update}} (int home\+Score, int away\+Score)=0
+\begin{DoxyCompactList}\small\item\em Met à jour l\textquotesingle{}arbitre avec le score actuel du jeu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface pour les arbitres observant le jeu (Pattern Observer). 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_arbitre_aea0e81ace656d5a71c869a7f3101715e}\index{Arbitre@{Arbitre}!Update@{Update}}
+\index{Update@{Update}!Arbitre@{Arbitre}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_arbitre_aea0e81ace656d5a71c869a7f3101715e} 
+virtual void Arbitre\+::\+Update (\begin{DoxyParamCaption}\item[{int}]{home\+Score}{, }\item[{int}]{away\+Score}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Met à jour l\textquotesingle{}arbitre avec le score actuel du jeu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em home\+Score} & Score de l\textquotesingle{}équipe à domicile. \\
+\hline
+{\em away\+Score} & Score de l\textquotesingle{}équipe adverse. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_referee_display_a1466c1d543b30973526c1dea267273cb}{Referee\+Display}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{basket_8hpp}{basket.\+hpp}}\end{DoxyCompactItemize}

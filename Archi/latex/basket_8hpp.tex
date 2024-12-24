@@ -1,0 +1,57 @@
+\doxysection{basket.\+hpp File Reference}
+\hypertarget{basket_8hpp}{}\label{basket_8hpp}\index{basket.hpp@{basket.hpp}}
+
+
+Fichier en-\/tête définissant les classes et structures pour une simulation de jeu de basketball.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_position}{Position}}
+\begin{DoxyCompactList}\small\item\em Structure représentant une position dans un espace 2D. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_player}{Player}}
+\begin{DoxyCompactList}\small\item\em Classe représentant un joueur dans le jeu de basketball. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_ballon}{Ballon}}
+\begin{DoxyCompactList}\small\item\em Classe représentant le ballon de basketball. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_arbitre}{Arbitre}}
+\begin{DoxyCompactList}\small\item\em Interface pour les arbitres observant le jeu (Pattern Observer). \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_referee_display}{Referee\+Display}}
+\begin{DoxyCompactList}\small\item\em Classe pour afficher les mises à jour des arbitres. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_gamescore}{Gamescore}}
+\begin{DoxyCompactList}\small\item\em Classe gérant le score du jeu (Pattern Singleton et Observable). \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_strategy}{Strategy}}
+\begin{DoxyCompactList}\small\item\em Classe abstraite représentant une stratégie pour le coach. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_offensive_strategy}{Offensive\+Strategy}}
+\begin{DoxyCompactList}\small\item\em Classe représentant une stratégie offensive. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_defensive_strategy}{Defensive\+Strategy}}
+\begin{DoxyCompactList}\small\item\em Classe représentant une stratégie défensive. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_coach}{Coach}}
+\begin{DoxyCompactList}\small\item\em Classe représentant le coach, qui applique des stratégies et observe les joueurs. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_team_component}{Team\+Component}}
+\begin{DoxyCompactList}\small\item\em Classe abstraite pour les composants dans le Pattern Composite. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_player_leaf}{Player\+Leaf}}
+\begin{DoxyCompactList}\small\item\em Classe représentant un joueur individuel dans une équipe. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_team_composite}{Team\+Composite}}
+\begin{DoxyCompactList}\small\item\em Classe représentant une équipe composée de joueurs ou de sous-\/équipes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{basket_8hpp_a1cbb717fb7472d0f7f4ec0cf9a00eefa}\label{basket_8hpp_a1cbb717fb7472d0f7f4ec0cf9a00eefa} 
+\#define {\bfseries basket\+\_\+x}~100.f
+\begin{DoxyCompactList}\small\item\em Largeur du terrain de basketball. \end{DoxyCompactList}\item 
+\Hypertarget{basket_8hpp_a7347148b920002671ec01f856d4fd6a4}\label{basket_8hpp_a7347148b920002671ec01f856d4fd6a4} 
+\#define {\bfseries basket\+\_\+y}~50.f
+\begin{DoxyCompactList}\small\item\em Hauteur du terrain de basketball. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fichier en-\/tête définissant les classes et structures pour une simulation de jeu de basketball. 
+

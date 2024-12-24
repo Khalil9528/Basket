@@ -1,0 +1,94 @@
+\doxysection{Player Class Reference}
+\hypertarget{class_player}{}\label{class_player}\index{Player@{Player}}
+
+
+Classe représentant un joueur dans le jeu de basketball.  
+
+
+
+
+{\ttfamily \#include $<$basket.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_player_ac5e4d5ec76cddfa912463198b5c16c4d}{find\+\_\+teammates}} (const std\+::vector$<$ \mbox{\hyperlink{class_player}{Player}} $>$ \&players, int team\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Trouve les coéquipiers les plus proches. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a11786df187ac8623cd05c77ba7d374d7}{find\+\_\+opponents}} (const std\+::vector$<$ \mbox{\hyperlink{class_player}{Player}} $>$ \&players, int team\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Trouve les adversaires les plus proches. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player_af3e20453950b389dbf9ce9486c3a39a7}\label{class_player_af3e20453950b389dbf9ce9486c3a39a7} 
+\mbox{\hyperlink{struct_position}{Position}} {\bfseries position}
+\begin{DoxyCompactList}\small\item\em \doxylink{struct_position}{Position} actuelle du joueur. \end{DoxyCompactList}\item 
+\Hypertarget{class_player_a9e7de5d7b8ece830f8c6f39df9be035d}\label{class_player_a9e7de5d7b8ece830f8c6f39df9be035d} 
+bool {\bfseries possede\+\_\+ball} = false
+\begin{DoxyCompactList}\small\item\em Indique si le joueur possède le ballon. \end{DoxyCompactList}\item 
+\Hypertarget{class_player_af14f0d6ce7546bc1ded859df40cd8819}\label{class_player_af14f0d6ce7546bc1ded859df40cd8819} 
+int {\bfseries number}
+\begin{DoxyCompactList}\small\item\em Numéro attribué au joueur. \end{DoxyCompactList}\item 
+\Hypertarget{class_player_a57b1395a8082f37f113f9ae14d9cb772}\label{class_player_a57b1395a8082f37f113f9ae14d9cb772} 
+\mbox{\hyperlink{class_player}{Player}} \texorpdfstring{$\ast$}{*} {\bfseries Teammates} \mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tableau de pointeurs vers les coéquipiers. \end{DoxyCompactList}\item 
+\Hypertarget{class_player_a75476de6fc8c2bd208f78be4c84cf315}\label{class_player_a75476de6fc8c2bd208f78be4c84cf315} 
+\mbox{\hyperlink{class_player}{Player}} \texorpdfstring{$\ast$}{*} {\bfseries Opponents} \mbox{[}5\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tableau de pointeurs vers les adversaires. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe représentant un joueur dans le jeu de basketball. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_player_a11786df187ac8623cd05c77ba7d374d7}\index{Player@{Player}!find\_opponents@{find\_opponents}}
+\index{find\_opponents@{find\_opponents}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{find\_opponents()}{find\_opponents()}}
+{\footnotesize\ttfamily \label{class_player_a11786df187ac8623cd05c77ba7d374d7} 
+void Player\+::find\+\_\+opponents (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{class_player}{Player}} $>$ \&}]{players}{, }\item[{int}]{team\+\_\+id}{}\end{DoxyParamCaption})}
+
+
+
+Trouve les adversaires les plus proches. 
+
+Trouve les adversaires les plus proches pour un joueur.
+
+
+\begin{DoxyParams}{Parameters}
+{\em players} & Liste de tous les joueurs. \\
+\hline
+{\em team\+\_\+id} & Identifiant de l\textquotesingle{}équipe.\\
+\hline
+{\em players} & Liste de tous les joueurs du jeu. \\
+\hline
+{\em team\+\_\+id} & L\textquotesingle{}identifiant de l\textquotesingle{}équipe du joueur. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_player_ac5e4d5ec76cddfa912463198b5c16c4d}\index{Player@{Player}!find\_teammates@{find\_teammates}}
+\index{find\_teammates@{find\_teammates}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{find\_teammates()}{find\_teammates()}}
+{\footnotesize\ttfamily \label{class_player_ac5e4d5ec76cddfa912463198b5c16c4d} 
+void Player\+::find\+\_\+teammates (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{class_player}{Player}} $>$ \&}]{players}{, }\item[{int}]{team\+\_\+id}{}\end{DoxyParamCaption})}
+
+
+
+Trouve les coéquipiers les plus proches. 
+
+Trouve les coéquipiers les plus proches pour un joueur.
+
+
+\begin{DoxyParams}{Parameters}
+{\em players} & Liste de tous les joueurs. \\
+\hline
+{\em team\+\_\+id} & Identifiant de l\textquotesingle{}équipe.\\
+\hline
+{\em players} & Liste de tous les joueurs du jeu. \\
+\hline
+{\em team\+\_\+id} & L\textquotesingle{}identifiant de l\textquotesingle{}équipe du joueur. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{basket_8hpp}{basket.\+hpp}}\item 
+basket.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,91 @@
+\doxysection{Team\+Composite Class Reference}
+\hypertarget{class_team_composite}{}\label{class_team_composite}\index{TeamComposite@{TeamComposite}}
+
+
+Classe représentant une équipe composée de joueurs ou de sous-\/équipes.  
+
+
+
+
+{\ttfamily \#include $<$basket.\+hpp$>$}
+
+Inheritance diagram for Team\+Composite\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_team_composite}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_team_composite_a496dc91780e06193400f03971af1f803}{Add}} (\mbox{\hyperlink{class_team_component}{Team\+Component}} \texorpdfstring{$\ast$}{*}component)
+\begin{DoxyCompactList}\small\item\em Ajoute un composant à l\textquotesingle{}équipe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_team_composite_a056f8cfc118457d526418c1165eee196}{Remove}} (\mbox{\hyperlink{class_team_component}{Team\+Component}} \texorpdfstring{$\ast$}{*}component)
+\begin{DoxyCompactList}\small\item\em Retire un composant de l\textquotesingle{}équipe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_team_composite_ac664e78f97ebcf92ad8dee7b2eefdc44}{Display}} () const override
+\begin{DoxyCompactList}\small\item\em Affiche les informations de l\textquotesingle{}équipe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_team_component}{Team\+Component}}}
+
+
+\doxysubsection{Detailed Description}
+Classe représentant une équipe composée de joueurs ou de sous-\/équipes. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_team_composite_a496dc91780e06193400f03971af1f803}\index{TeamComposite@{TeamComposite}!Add@{Add}}
+\index{Add@{Add}!TeamComposite@{TeamComposite}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily \label{class_team_composite_a496dc91780e06193400f03971af1f803} 
+void Team\+Composite\+::\+Add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_team_component}{Team\+Component}} \texorpdfstring{$\ast$}{*}}]{component}{}\end{DoxyParamCaption})}
+
+
+
+Ajoute un composant à l\textquotesingle{}équipe. 
+
+Ajoute un composant à une équipe.
+
+
+\begin{DoxyParams}{Parameters}
+{\em component} & Pointeur vers le composant.\\
+\hline
+{\em component} & Pointeur vers le composant à ajouter. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_team_composite_ac664e78f97ebcf92ad8dee7b2eefdc44}\index{TeamComposite@{TeamComposite}!Display@{Display}}
+\index{Display@{Display}!TeamComposite@{TeamComposite}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily \label{class_team_composite_ac664e78f97ebcf92ad8dee7b2eefdc44} 
+void Team\+Composite\+::\+Display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Affiche les informations de l\textquotesingle{}équipe. 
+
+
+
+Implements \mbox{\hyperlink{class_team_component_a90a3e99676299dbfef570afb07d27295}{Team\+Component}}.
+
+\Hypertarget{class_team_composite_a056f8cfc118457d526418c1165eee196}\index{TeamComposite@{TeamComposite}!Remove@{Remove}}
+\index{Remove@{Remove}!TeamComposite@{TeamComposite}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily \label{class_team_composite_a056f8cfc118457d526418c1165eee196} 
+void Team\+Composite\+::\+Remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_team_component}{Team\+Component}} \texorpdfstring{$\ast$}{*}}]{component}{}\end{DoxyParamCaption})}
+
+
+
+Retire un composant de l\textquotesingle{}équipe. 
+
+Retire un composant d\textquotesingle{}une équipe.
+
+
+\begin{DoxyParams}{Parameters}
+{\em component} & Pointeur vers le composant.\\
+\hline
+{\em component} & Pointeur vers le composant à retirer. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{basket_8hpp}{basket.\+hpp}}\item 
+basket.\+cpp\end{DoxyCompactItemize}

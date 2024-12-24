@@ -1,0 +1,54 @@
+\doxysection{tests.\+cpp File Reference}
+\hypertarget{tests_8cpp}{}\label{tests_8cpp}\index{tests.cpp@{tests.cpp}}
+
+
+Fichier contenant les tests unitaires pour les différentes fonctionnalités du projet.  
+
+
+{\ttfamily \#include "{}basket.\+cpp"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{tests_8cpp_af828da53a77f94820f098a25f59a92f9}\label{tests_8cpp_af828da53a77f94820f098a25f59a92f9} 
+void {\bfseries test\+Position\+Distance} ()
+\begin{DoxyCompactList}\small\item\em Teste la méthode de calcul de distance entre deux positions. \end{DoxyCompactList}\item 
+\Hypertarget{tests_8cpp_aefff4ea23de42727f739179b233e92dd}\label{tests_8cpp_aefff4ea23de42727f739179b233e92dd} 
+void {\bfseries test\+Ballon\+Changer\+Possesseur} ()
+\begin{DoxyCompactList}\small\item\em Teste le changement de possesseur du ballon vers un coéquipier. \end{DoxyCompactList}\item 
+\Hypertarget{tests_8cpp_a95003228e39175982c4976df37f32cf5}\label{tests_8cpp_a95003228e39175982c4976df37f32cf5} 
+void {\bfseries test\+Singleton\+Pattern} ()
+\begin{DoxyCompactList}\small\item\em Teste que la classe {\ttfamily \doxylink{class_gamescore}{Gamescore}} respecte bien le pattern Singleton. \end{DoxyCompactList}\item 
+\Hypertarget{tests_8cpp_a81101fb3ae1e7cebc7f7824d4bb42f23}\label{tests_8cpp_a81101fb3ae1e7cebc7f7824d4bb42f23} 
+void {\bfseries test\+Observer\+Pattern} ()
+\begin{DoxyCompactList}\small\item\em Teste le fonctionnement du pattern Observer avec les arbitres. \end{DoxyCompactList}\item 
+\Hypertarget{tests_8cpp_aa23812749acdd0d9849d6814c20b5b4f}\label{tests_8cpp_aa23812749acdd0d9849d6814c20b5b4f} 
+void {\bfseries test\+Composite\+Pattern} ()
+\begin{DoxyCompactList}\small\item\em Teste le fonctionnement du pattern Composite pour gérer les équipes. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tests_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Point d\textquotesingle{}entrée principal pour exécuter tous les tests unitaires. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fichier contenant les tests unitaires pour les différentes fonctionnalités du projet. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{tests_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{tests.cpp@{tests.cpp}!main@{main}}
+\index{main@{main}!tests.cpp@{tests.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{tests_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Point d\textquotesingle{}entrée principal pour exécuter tous les tests unitaires. 
+
+Ce fichier exécute les tests pour valider \+:
+\begin{DoxyItemize}
+\item Les calculs de distances.
+\item Le changement de possesseur du ballon.
+\item Les patterns Singleton, Observer et Composite. 
+\end{DoxyItemize}
